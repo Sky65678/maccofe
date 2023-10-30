@@ -1,38 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@500;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@500;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,300&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.revo-img{
+  background-image:url(./img/revo_logo.png) ;
+  width: 7.5vw;
+  height: 5vh;
+  background-size: 100%;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.your-coffe-img{
+  flex-shrink: 0;  
+  color: #415167;
+  font-family: Montserrat;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 900;
+  margin-left: -37.5%;
+  text-align: left;
+  padding-top: 75%;
+}
+.main-img{
+  background-image: url(./img/30072807_909538065884146_2710474531215143694_o.png);
+  width: 45vw;
+  height: 99vh;
+  background-size: 100%;
+}
+.big-brown{
+  background-color: #C7A17A;
+  font-family: Montserrat;
+  font-size:74px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;  
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sale-menu{
+  background-color: #415167;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sale-img{
+  width: 2vw;
+  height: 4vh;
+  background-image: url('./img/IC_CART.png');
+  background-size: 100%;
+  display: inline-block;
+}
+.under-sale-img{
+  display: inline-block;
+  background-color: #C7A17A;
+  border-radius: 100%;
+  width: 1vw;
+  height: 2vh;
+  margin-bottom: 9%;
+}
+.sale-icon{
+  margin-top: 30%;
+  margin-right: 50%;
 }
