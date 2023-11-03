@@ -1,5 +1,10 @@
 
 import './App.css';
+import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import Carousel from './Carousel/Carousel';
+
 
 function App() {
   return (
@@ -20,16 +25,47 @@ function App() {
             </div>
             <div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>TRANG CHỦ</li>
+                <li>COFFEE</li>
+                <li>PHIN MẠ MÀU</li>
+                <li>COMBO PHIN PHÊ</li>
+                <li>GIFTSET</li>
+                <li>LIÊN HỆ</li>
               </ul>
             </div>
         </div>
       </header>
+        <body>
+          <div className='Personalized-Coffee'>
+            <div className='Personalized-Coffee-Text'>
+              <p id='Personalized-text'>Your Personalized Coffee</p>
+              <h2>COFFEE BUILD YOUR BASE</h2>
+            </div>
+            <div className='Personalized-Coffee-Flex'>
+              <div className='Personalized-Coffee-Flex-Text'>
+                <div className='Personalized-Coffee-Img1'></div>
+                <h4>Nguồn gốc</h4>
+                <p>Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.</p>
+              </div>
+              <div className='Personalized-Coffee-Flex-Text'>
+                <div className='Personalized-Coffee-Img2'></div>
+                <h4>Chất lượng</h4>
+                <p>Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.</p>
+              </div>
+              <div className='Personalized-Coffee-Flex-Text'>
+                <div className='Personalized-Coffee-Img3'></div>
+                <h4>Các loại hạt</h4>
+                <p>70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.</p>
+              </div>
+              <div className='Personalized-Coffee-Flex-Text'>
+                <div className='Personalized-Coffee-Img4'></div>
+                <h4>Pha chế</h4>
+                <p>Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.</p>
+              </div>
+          </div>
+          </div>
+          <Carousel/>
+        </body>
     </div>
   );
 }
