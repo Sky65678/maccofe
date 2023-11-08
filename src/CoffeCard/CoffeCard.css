@@ -1,9 +1,75 @@
 article{
-    
+    display: flex;
+    margin-left: 5%;
+    margin-top:10%;
 }
-article > h3{
-
+.header-coffe{
+    color: #232C38;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */    
 }
-article > p{
-    
+.text-coffe{
+    color: #151D28;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    display: inline-block;   
+}
+.price{
+    color: #C7A17A;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */  
+    text-align: left;  
+}
+.button-card{
+    background-color: #C7A17A;
+    width: 9vw;
+    height: 4vh;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 19px;
+}
+.button-card2{
+    background-color: white;
+    width: 9vw;
+    height: 4vh;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 19px;
+    margin-left: 5%;
+}
+.button-card2 > span{
+    color: black;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.button-card > span{
+    color: #F9FBFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+img{
+    background-color: rgba(240, 248, 255, 0.493);
 }

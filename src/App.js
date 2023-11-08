@@ -64,7 +64,14 @@ function App() {
               </div>
           </div>
           </div>
-          <Carousel/>
+          <div className='Carousel'>
+            <div>
+              <p>Choose Your Favorite</p>
+              <h3>CHUẨN GU ĐÚNG VỊ</h3>
+            </div>
+            <div className='Carousel-blue'></div>
+              <Carousel/>
+          </div>
         </body>
     </div>
   );
