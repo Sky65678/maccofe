@@ -4,6 +4,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Carousel from './Carousel/Carousel';
+import Carouselswipe from './Carousel-swipe/Carousel-swipe';
 
 
 function App() {
@@ -65,12 +66,13 @@ function App() {
           </div>
           </div>
           <div className='Carousel'>
-            <div>
-              <p>Choose Your Favorite</p>
-              <h3>CHUẨN GU ĐÚNG VỊ</h3>
-            </div>
-            <div className='Carousel-blue'></div>
+            <div className='Carousel-blue'></div> 
+              <p id='Carousel-p'>Choose Your Favorite</p>
+              <h3 id='Carousel-h3'>CHUẨN GU ĐÚNG VỊ</h3>
               <Carousel/>
+          </div>
+          <div className='Carousel-swipe'>
+            <Carouselswipe/>
           </div>
         </body>
     </div>

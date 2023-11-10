@@ -170,3 +170,22 @@ p{
   position: absolute;
   background-color: #415167;
 }
+#Carousel-p{
+  color: #415167;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */  
+}
+
+#Carousel-h3 {
+  text-align: center;
+  color: #415167;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px; /* 113.333% */
+}
