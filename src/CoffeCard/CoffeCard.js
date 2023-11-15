@@ -5,7 +5,7 @@ function CoffeCard({image,header,text,price,cardType}) {
     return(
         <article>
             <img src={image} className={cardType == 'giftset'?'1':'2'}/>
-            <div>
+            <div className='Textcooffecard'>
             <p className='price'>{price}</p>
             <h3 className='header-coffe'>{header}</h3>
             <p className='text-coffe'>{text}</p>
@@ -14,9 +14,6 @@ function CoffeCard({image,header,text,price,cardType}) {
             <button className='button-card'><span>MUA NGAY</span></button>
             <button className='button-card2'><span>CHI TIẾT</span></button>
             </div>
-         
-                
-           
         </article>
     )
 }

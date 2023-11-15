@@ -18,7 +18,7 @@ const responsive = {
         items: 2
     },
     1920: {
-        items: 3, 
+        items: 2, 
         itemsFit: 'contain'
     },
 };

@@ -7,5 +7,5 @@ function CardSlider({CoffeCard1, CoffeCard2}) {
         </section>
     )
 };
-
+   
 export default CardSlider;

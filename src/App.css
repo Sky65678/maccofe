@@ -69,7 +69,6 @@
 }
 ul{
   width: 15vw;
-  height: 50vh;
   margin-left: 15%;
 }
 li{
@@ -160,13 +159,12 @@ p{
   margin-left: 9%;
 }
 .Carousel{
-  
   margin-top: 10%;
   background-color:#F9FBFF;
 }
 .Carousel-blue{
   height: 100%;
-  width: 13%;
+  width: 16%;
   position: absolute;
   background-color: #415167;
 }
@@ -178,6 +176,7 @@ p{
   font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 120% */  
+  padding-top: 5%;
 }
 
 #Carousel-h3 {
