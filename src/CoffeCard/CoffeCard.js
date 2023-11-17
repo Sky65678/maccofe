@@ -4,7 +4,7 @@ function CoffeCard({image,header,text,price,cardType}) {
 
     return(
         <article>
-            <img src={image} className={cardType == 'giftset'?'1':'2'}/>
+            <img src={image} className={cardType == 'giftset'?'1':'cardcoffe'}/>
             <div className='Textcooffecard'>
             <p className='price'>{price}</p>
             <h3 className='header-coffe'>{header}</h3>

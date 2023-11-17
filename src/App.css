@@ -164,7 +164,7 @@ p{
 }
 .Carousel-blue{
   height: 100%;
-  width: 16%;
+  width: 20%;
   position: absolute;
   background-color: #415167;
 }
@@ -187,4 +187,14 @@ p{
   font-style: normal;
   font-weight: 900;
   line-height: 34px; /* 113.333% */
+}
+.Carousel-white{
+  height: 100%;
+  width: 23%;
+  position:absolute;
+  background-color: white;
+  right: 0;
+}
+.Carousel-swipe{
+  background-color: #EDF0F5;
 }

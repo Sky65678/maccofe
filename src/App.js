@@ -72,7 +72,11 @@ function App() {
               <Carousel/>
           </div>
           <div className='Carousel-swipe'>
+            <div className='Carousel-white'></div>
+              <p id='Carousel-p'>Best Gift For Best Friend</p>
+              <h3 id='Carousel-h3'>GIFTSET</h3>
             <Carouselswipe/>
+            
           </div>
         </body>
     </div>

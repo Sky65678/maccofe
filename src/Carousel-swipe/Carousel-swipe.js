@@ -24,10 +24,10 @@ const Carouselswipe = () => {
         console.debug(`onUpdated => Item's position after update: ${e.item}. Event:`, e);
     };
     
-    let coffeCardFirst = <CoffeCardSwipe image={Photo} price={'285.000'} cardType={Coffe} header='Giftset "Cà phê phin Việt Nam' text='Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.' image={Photo }></CoffeCardSwipe>
+    let coffeCardFirst = <CoffeCardSwipe image={Photo} price={'285.000'} cardType={Coffe} header='Giftset "Cà phê phin Việt Nam' text='Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.' cardType={"giftsetswipe"}></CoffeCardSwipe>
 
     
-    let coffeCard3 = <CoffeCardSwipe image={Photo} price={'85.000'} text='cân bằng, hậu đắng, vị chocolate ' header='REVO Everyday' ></CoffeCardSwipe>
+    let coffeCard3 = <CoffeCardSwipe image={Photo} price={'85.000'} text='cân bằng, hậu đắng, vị chocolate ' header='REVO Everyday' cardType={"giftsetswipe"} ></CoffeCardSwipe>
 
     
     let coffeCard5 = <CoffeCardSwipe image={Photo} price={'45.000'} text='cân bằng, hậu đắng, vị chocolate ' header='REVO Everyday' ></CoffeCardSwipe>
@@ -37,8 +37,8 @@ const Carouselswipe = () => {
         coffeCardFirst, coffeCard3, coffeCard5
     ];
     
-    return [
-        <AliceCarousel
+    return (
+    <div><AliceCarousel
             mouseTracking
             disableDotsControls
             disableButtonsControls
@@ -46,13 +46,15 @@ const Carouselswipe = () => {
             activeIndex={activeIndex}
             onSlideChanged={onSlideChanged}
             onUpdated={onUpdated}
-        />,
+        />
         <div className="b-refs-buttons">
             <button onClick={slidePrev}>1</button>
             <button onClick={slideNext}>2</button>
             <button onClick={slide3}>3</button>
-        </div>,
-    ];
+        </div>
+        </div>)
+        
+    
 };
 
 export default Carouselswipe

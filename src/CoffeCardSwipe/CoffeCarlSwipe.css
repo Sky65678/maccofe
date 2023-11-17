@@ -1,8 +1,11 @@
 article{
     display: flex;
     margin-left: 5%;
-    margin-top:10%;
-    width: 100%;
+    margin-top:5%;
+    width: 80%;
+    padding-top: 4%;
+    margin-bottom: 5%;
+    background: linear-gradient(to right, #EDF0F5 25%,white 30% );
 }
 .header-coffeswipe{
     color: #232C38;
@@ -32,6 +35,7 @@ article{
     font-weight: 600;
     line-height: 24px; /* 120% */  
     text-align: left;  
+    margin-top: 0%;
 }
 .button-cardswipe{
     background-color: #C7A17A;
@@ -73,4 +77,46 @@ article{
     font-style: normal;
     font-weight: 700;
     line-height: normal;    
+}
+.caffecardswipe{
+    width: 30%;
+    background-color: white;
+}
+
+.coffecardswipe{
+    margin-left: 6%;
+    background-size: 100%;
+    width: 34%;
+    height: 52vh;
+}
+.cofezerno-div > img{
+    display: inline-block;
+    background-size: 100%;
+
+}
+.cofezerno-div > h5 {
+    display: inline-block;
+    color: #415167;
+}
+.cofemoun-div > h5 {
+    display: inline-block;
+    color: #415167;
+}
+.cofezerno-div{
+    display: inline-block;
+}
+.cofemoun-div{
+    display: inline-block;
+    margin-left:28% ;
+}
+.caffecardswipe{
+    margin-left: 10%;
+    width: 40%;
+}
+.Fine-text{
+    color: #1f2c3f;
+}
+.alice-carousel{
+    width: 95%!important;
+    display: inline-block;
 }
